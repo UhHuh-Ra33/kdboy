@@ -1,4 +1,5 @@
 ; 초롱이의 모험 초기 작업
+; PAGE 54 ~ 58
 CODE        SEGMENT
             ASSUME CD:CODE, DS:DATA, ES:DATA
 

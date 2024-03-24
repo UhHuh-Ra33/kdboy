@@ -1,4 +1,5 @@
 ; 초롱이의 모험 데이터 세그먼트 
+; PAGE 406 ~ 412
 DATA SEGMENT    
 
 ; LEVEL
