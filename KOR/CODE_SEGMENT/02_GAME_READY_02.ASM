@@ -154,7 +154,7 @@ E_LOAD:
             MOV     FDLEN,AX        ; 화일 길이
             MOV     AX,7000H
             MOV     FDSEG,AX        ; 화일 데이터를 옮길 위치(Segment)
-            CALL    LOAD_D          ; H.CWS를 읽는다
+            CALL    LOAD_D          ; E.CWS를 읽는다
 
             CMP     ERROR,1         ; ERROR가 1과
             JE      E_LOAD          ; 에러가 있으면 E_LOAD로 돌아간다.
